@@ -58,6 +58,18 @@ const allClickCol = ()=>{
     disableAll();
     setTimeout(()=>alert("Player X Won !!"),0)
    }
+   else if(val1 == "X" && val5 == "X" && val9 == "X"){
+    prnt.innerText = "Player X won";
+    won=1;
+    disableAll();
+    setTimeout(()=>alert("Player X Won !!"),0)
+   }
+   else if(val3 == "X" && val5 == "X" && val7 == "X"){
+    prnt.innerText = "Player X won";
+    won=1;
+    disableAll();
+    setTimeout(()=>alert("Player X Won !!"),0)
+   }
    
    //0 player
    if(val1 == "O" && val4 == "O" && val7 == "O"){
@@ -91,6 +103,18 @@ const allClickCol = ()=>{
     setTimeout(()=>alert("Player 0 Won !!"),0)
    }
    else if(val7 == "O" && val8 == "O" && val9 == "O"){
+    prnt.innerText = "Player O won";
+    won=1;
+    disableAll();
+    setTimeout(()=>alert("Player 0 Won !!"),0)
+   }
+   else if(val1 == "O" && val5 == "O" && val9 == "O"){
+    prnt.innerText = "Player O won";
+    won=1;
+    disableAll();
+    setTimeout(()=>alert("Player 0 Won !!"),0)
+   }
+   else if(val3 == "O" && val5 == "O" && val7 == "O"){
     prnt.innerText = "Player O won";
     won=1;
     disableAll();
