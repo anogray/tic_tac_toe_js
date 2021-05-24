@@ -1,0 +1,59 @@
+.game {
+    margin-top: 5%;
+}
+.header{
+    text-align: center;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.column{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border:0px;
+    width: 50px;
+    height: 50px;
+    margin:1px;
+}
+
+input[type="text"]{
+    caret-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.reset{
+    display: flex;
+     margin-top: 20px;
+}
+#resetBtn {
+      color: white;
+      font-size: bold; 
+      background-color: red; border-radius: 20px; 
+      padding: 10px; 
+      border: none; 
+      cursor: pointer;
+      margin: auto;
+    }
+
+#prnt{
+    caret-color: transparent;
+    justify-items: center;
+    color:red;
+    text-align:center;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rules{
+    text-align: center;
+    color: #7735fa;
+    font-size: medium;
+}
